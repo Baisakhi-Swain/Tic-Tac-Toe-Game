@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+   /* --primary-color: #6366f1;
+    --ACCENT-color: #3f83f8;
+    --text-color:  #333333;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+    --link-color:#2563eb;*/
+    --thistle: #cdb4dbff;
+--fairy-tale: #ffc8ddff;
+--carnation-pink: #ffafccff;
+--uranian-blue: #bde0feff;
+--light-sky-blue: #a2d2ffff;
+--background: url("https://coolors.co/gradient/392d69-b57bee");
+ }
+body{
+    background-image: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 70%, hsla(207, 41%, 27%, 1) 100%);
+    text-align: center;
+    height: 100%;
+    width: 100vw;
+   /* background-color:var(--fairy-tale);*/
+}
+ 
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+   
+}
+
+.game{
+   /* padding-top: 1rem;*/
+    height: 60vmin;
+    width:60vmin ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+   /* margin-top: 1rem;*/
+   
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(1, 22, 27, 0.863);
+   /* box-shadow: 0 0 1rem rgba(40, 150,200 , 0.852);*/
+    font-size: 4rem;
+    color: rgb(27, 92, 112);
+    background-color: rgb(230, 244, 244);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+#reset-btn{
+    padding: 0.5rem;    
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: var(--thistle);
+    color: rgb(27, 124, 166);
+    box-shadow: 0 0 1rem rgba(21, 135, 184, 0.863);
+}
+.msg-container{
+    height: 100vh;
+    width: 100vw;
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+#new-btn{
+    padding: 0.5rem;    
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: rgb(231, 79, 14);
+    color: rgb(121, 13, 13); 
+    box-shadow: 0 0 1rem rgba(19, 192, 183, 0.863);
+
+}
+
+#msg{
+    color: rgb(220, 206, 225);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.2rem;
+}
+
+.hide
+{
+    display: none;
+}
+h1{
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    color: rgb(96, 173, 207);
+
+}
